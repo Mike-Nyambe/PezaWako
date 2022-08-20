@@ -1,0 +1,29 @@
+{
+    "name": "pezawako",
+    "version": "1.0.0",
+    "description": "a zambian based dating website",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel serve index.html --open",
+        "build": "parcel build index.html --no-source-maps"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mike-Nyambe/PezaWako.git"
+    },
+    "keywords": [
+        "dating",
+        "site"
+    ],
+    "author": "Mike Nyambe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mike-Nyambe/PezaWako/issues"
+    },
+    "homepage": "https://github.com/Mike-Nyambe/PezaWako#readme",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.7.0",
+        "node-sass": "^7.0.1",
+        "parcel": "^2.7.0"
+    }
+}

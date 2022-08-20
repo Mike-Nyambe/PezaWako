@@ -1,0 +1,45 @@
+.section_404-page {
+    margin-top: 18rem;
+    height: 60vh;
+    .page-404-util {
+        padding-right: 3rem;
+    }
+    .page-404-p {
+        h3 {
+            font-size: 5rem;
+            text-transform: uppercase;
+            padding-bottom: 1.2rem;
+            color: red;
+        }
+        p {
+            font-size: 2rem;
+        }
+    }
+    .home-link {
+        padding-top: 2rem;
+        a {
+            text-decoration: none;
+            background-color: rgb(0, 102, 218);
+            display: inline-block;
+            padding: 1rem 2rem;
+            color: #fff;
+            font-weight: 500;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            border-radius: 5px;
+            transition: all 0.6s;
+        }
+        a:hover {
+            background-color: rgb(50, 117, 194);
+            padding: 1rem 2.5rem;
+        }
+    }
+    .composition {
+        position: relative;
+        &_photo {
+            width: 100%;
+            border-radius: 2px;
+            position: absolute;
+        }
+    }
+}

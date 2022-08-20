@@ -1,0 +1,42 @@
+.landing-page-nav {
+    margin: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo {
+        width: 100%;
+        img {
+            height: 5rem;
+        }
+    }
+    &_nav-link {
+        list-style: none;
+    }
+    &_login-link:link,
+    &_login-link:visited {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: $general-font-color;
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+        transition: all 1s;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        img {
+            height: 1.4rem;
+            width: 1.4rem;
+            transition: all 1s;
+        }
+    }
+    &_login-link:hover,
+    &_login-link:active {
+        background-color: #111;
+        color: $text-hover-color;
+        img {
+            filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+        }
+    }
+}

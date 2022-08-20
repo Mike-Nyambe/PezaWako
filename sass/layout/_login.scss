@@ -1,0 +1,54 @@
+.login_section {
+    padding: 11.4rem 0;
+    background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.837), rgba(0, 0, 0, 0.825)), url("/images/couple.jpg");
+    background-size: cover;
+    background-position: center;
+    &_form-image {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+        border-radius: 11px;
+        background-color: #fff;
+        width: 70%;
+        margin: 0 auto;
+        overflow: hidden;
+        .form_image {
+            background-image: linear-gradient( to right bottom, rgba(103, 89, 231, 0.35), rgba(34, 103, 230, 0.35)), url("/images/couple.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 30rem;
+        }
+        .paragraph-form {
+            display: flex;
+            flex-direction: column;
+            padding: 3rem;
+            .login_paragraph-heading {
+                text-align: center;
+                text-transform: capitalize;
+                font-size: $general-fonts;
+                color: #111;
+                padding: 3rem 0;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                .in-put {
+                    display: flex;
+                    flex-direction: column;
+                }
+                label {
+                    color: #111;
+                    font-size: 1.4rem;
+                }
+                input[type="number"],
+                input[type="password"] {
+                    border: 1.5px #999 solid;
+                    outline: none;
+                    padding: 1rem .5rem;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

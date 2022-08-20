@@ -1,0 +1,56 @@
+.sign_up_section {
+    padding: 2rem 0;
+    margin-bottom: 3.5rem;
+    &_main-content {
+        width: 40%;
+        margin: 0 auto;
+        padding: 3rem;
+        border-radius: 5px;
+        // background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.427)), url("/images/login-love.jpg");
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    &_paragraph-heading {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: $general-fonts;
+        color: #111;
+        padding: 0 0 2rem 0;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="password"],
+        select {
+            padding: 7px;
+            border: 1.5px solid rgb(199, 199, 199);
+            outline: none;
+            border-radius: 3px;
+        }
+         ::placeholder {
+            text-transform: capitalize;
+        }
+        button {
+            color: #fff;
+            padding: 7px;
+            text-align: center;
+            text-transform: capitalize;
+            width: 32%;
+            border: none;
+            outline: none;
+            border-radius: 3rem;
+            background-color: #3F0AEC;
+            cursor: pointer;
+            transition: all 1s;
+        }
+        button:hover {
+            color: #fff;
+            width: 34%;
+            background-color: #582bed;
+        }
+    }
+}

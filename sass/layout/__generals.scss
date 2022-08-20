@@ -1,0 +1,53 @@
+/*============colors================*/
+
+$hover-color:#3E0BEA;
+$main-color:#3E0BEA;
+$text-hover-color:#FFF;
+$lower-color:#999;
+$general-font-color:#0c0c0c;
+
+/*============ Fonts ================*/
+
+$general-fonts: 1.6rem;
+$links-buttons: 2rem;
+
+/*============ gutters ==============*/
+
+$main-gutter: 2rem;
+$negativeMargintop: -2rem;
+
+/*===============================*/
+
+
+/*============ Margins/ paddings ==============*/
+
+$main-margin: 1rem;
+$margins-for-sec: 6rem;
+$section-margins:20rem;
+
+/*===============================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+html {
+    font-size: 62.5%;
+    color: $general-font-color;
+}
+
+body {
+    font-weight: 400;
+    letter-spacing: .1em;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+}
